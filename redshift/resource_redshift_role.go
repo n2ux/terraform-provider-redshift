@@ -95,8 +95,8 @@ func redshiftRole() *schema.Resource {
 					},
 				},
 			},
-		},
-}
+		}
+    }
 
 
 func resourceRedshiftRoleExists(db *DBConnection, d *schema.ResourceData) (bool, error) {
